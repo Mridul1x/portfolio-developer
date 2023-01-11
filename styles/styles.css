@@ -3,7 +3,11 @@
   font-family: "Open Sans", sans-serif;
   padding: 0;
 }
-.header a{
+/* hover sectiopn */
+.btn-format:hover {
+  background-color: purple;
+}
+.header a {
   text-decoration: none;
 }
 .maincolor {
@@ -135,8 +139,19 @@ main {
 }
 /* skills styles */
 .skill-info {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
+}
+@media screen and (max-width: 576px) {
+  .skill-info {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 900px) {
+  .skill-info{
+    grid-template-columns: repeat(2, 1fr);
+}
 }
 .section-text {
   text-align: center;
@@ -203,7 +218,7 @@ main {
   text-align: center;
   margin-top: 50px;
 }
-#dwnbtn{
+#dwnbtn {
   font-size: large;
 }
 /* contact */
@@ -213,7 +228,7 @@ main {
   background: hsl(258, 100%, 98%);
   padding: 130px 226px 20px;
 }
-  .Social-title{
+.Social-title {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 35px;
@@ -225,48 +240,51 @@ main {
   color: #474747;
   margin-bottom: 30px;
 }
-.contact-title{
+.contact-title {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 35px;
   color: #181818;
-  
 }
-.contact input[type="text"], input[type="email"], textarea{
+.contact input[type="text"],
+input[type="email"],
+textarea {
   margin-bottom: 24px;
   border: 0;
   width: 100%;
-  padding: 18px 30px; 
+  padding: 18px 30px;
 }
-input{
+input {
   height: 20px;
 }
-.contact a{
+.contact a {
   text-decoration: none;
   padding-right: 20px;
   padding-left: 0;
-
 }
-.footer-sec{
+.footer-sec {
   background: #00008b;
   color: white;
   text-align: center;
   margin: 0;
   padding: 20px;
 }
-.footer-title{
+.footer-title {
   margin-bottom: 5px;
   font-size: 20px;
   font-weight: bolder;
-
 }
-.footer-subtitle{
+.footer-subtitle {
   font-size: 17px;
   font-weight: bold;
   color: lightgray;
 }
-#reset{
+#reset {
   background-color: #ffffff;
   color: black;
   border: outset 1px royalblue;
+}
+input:focus {
+  color: blue;
+  font-weight: bold;
 }
