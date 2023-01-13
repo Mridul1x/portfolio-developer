@@ -3,19 +3,24 @@
   font-family: "Open Sans", sans-serif;
   padding: 0;
 }
+
 /* hover sectiopn */
 .btn-format:hover {
   background-color: purple;
 }
+
 .header a {
   text-decoration: none;
 }
+
 .maincolor {
   color: darkblue;
 }
+
 section {
   margin-top: 130px;
 }
+
 .btn-format {
   color: #ffffff;
   height: 64px;
@@ -29,6 +34,7 @@ section {
   border-radius: 5px;
   border: 0;
 }
+
 .btn-format1 {
   width: 200px;
   height: 64px;
@@ -42,9 +48,11 @@ section {
   border-radius: 5px;
   border: 0;
 }
+
 #con {
   background-color: black;
 }
+
 .header-img {
   background: hsl(258, 100%, 98%);
   background-image: url(../images/Group\ 12.png), url(../images/developer.png);
@@ -59,40 +67,48 @@ section {
   top: 161px;
   padding-right: 40px;
 }
+
 /* header and navigation styl */
 nav {
   display: flex;
   justify-content: space-between;
   padding: 51px 226px;
 }
+
 .nav-title {
   font-weight: 800;
   font-size: 45px;
 }
+
 nav ul {
   display: flex;
   align-items: center;
 }
+
 nav li {
   list-style: none;
   padding-left: 51px;
 }
+
 .header {
   display: flex;
   align-items: center;
   margin: 0 37px 0 226px;
 }
+
 .sup {
   font-weight: 600;
   font-size: 45px;
   margin-bottom: 5px;
 }
+
 .sub {
   font-weight: 700;
   font-size: 85px;
   padding-right: 300px;
   margin-bottom: 20px;
 }
+
 .paragraph-des {
   font-weight: 400;
   font-size: 18px;
@@ -100,29 +116,35 @@ nav li {
   margin-bottom: 30px;
   padding-right: 500px;
 }
+
 /* main section */
 main {
   max-width: 1140px;
   margin: 0 auto;
 }
+
 /* about section style */
 .about {
   background: hsl(258, 100%, 98%);
   border-radius: 10px;
   padding: 131px 156px;
   text-align: center;
+  margin-top: 0;
 }
+
 .section-title {
   text-align: center;
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 35px;
 }
+
 .section-des {
   margin-bottom: 30px;
   color: #757575;
   font-size: 18px;
 }
+
 .about-info {
   display: flex;
   justify-content: space-around;
@@ -132,27 +154,24 @@ main {
   color: #757575;
   font-size: 20px;
 }
+
 .info-des {
   color: #474747;
   font-weight: 700;
   font-size: 20px;
 }
+
 /* skills styles */
+.my-skills {
+  margin-top: 0;
+}
+
 .skill-info {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
 }
-@media screen and (max-width: 576px) {
-  .skill-info {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-@media screen and (min-width: 577px) and (max-width: 900px) {
-  .skill-info{
-    grid-template-columns: repeat(2, 1fr);
-}
-}
+
 .section-text {
   text-align: center;
   margin-top: 30px;
@@ -160,15 +179,15 @@ main {
   font-weight: 400;
   font-size: 18px;
   color: #757575;
-  padding-left: 176px;
-  padding-right: 176px;
 }
+
 .skill {
   background: darkblue;
   box-shadow: 0px 6px 50px rgba(41, 3, 138, 0.4);
   border-radius: 5px;
   padding: 30px;
 }
+
 .skill-title {
   color: white;
   font-weight: 700;
@@ -176,25 +195,30 @@ main {
   margin-top: 30px;
   margin-bottom: 20px;
 }
+
 .skill-des {
   color: white;
   font-weight: 350;
   font-size: 16px;
 }
+
 /* resume styles */
 #resume-title {
   margin-bottom: 113px;
 }
+
 .resume-content {
   display: flex;
   gap: 71px;
 }
+
 .resume-title {
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 30px;
   color: #474747;
 }
+
 .resume .title {
   margin-bottom: 10px;
   margin-top: 30px;
@@ -202,25 +226,30 @@ main {
   font-size: 25px;
   color: #474747;
 }
+
 .resume .subtitle {
   margin-bottom: 20px;
   font-weight: 600;
   font-size: 20px;
   color: #757575;
 }
+
 .resume .description {
   margin-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   color: #757575;
 }
+
 .resume-btn {
   text-align: center;
   margin-top: 50px;
 }
+
 #dwnbtn {
   font-size: large;
 }
+
 /* contact */
 .contact {
   display: flex;
@@ -228,24 +257,29 @@ main {
   background: hsl(258, 100%, 98%);
   padding: 130px 226px 20px;
 }
+
 .Social-title {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 35px;
   color: #181818;
 }
+
 .s-description {
   font-weight: 400;
   font-size: 16px;
   color: #474747;
   margin-bottom: 30px;
 }
+
 .contact-title {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 35px;
   color: #181818;
+
 }
+
 .contact input[type="text"],
 input[type="email"],
 textarea {
@@ -254,14 +288,17 @@ textarea {
   width: 100%;
   padding: 18px 30px;
 }
+
 input {
   height: 20px;
 }
+
 .contact a {
   text-decoration: none;
   padding-right: 20px;
   padding-left: 0;
 }
+
 .footer-sec {
   background: #00008b;
   color: white;
@@ -269,22 +306,123 @@ input {
   margin: 0;
   padding: 20px;
 }
+
 .footer-title {
   margin-bottom: 5px;
   font-size: 20px;
   font-weight: bolder;
 }
+
 .footer-subtitle {
   font-size: 17px;
   font-weight: bold;
   color: lightgray;
 }
+
 #reset {
   background-color: #ffffff;
   color: black;
   border: outset 1px royalblue;
 }
+
 input:focus {
   color: blue;
   font-weight: bold;
+}
+
+/* media styles  */
+@media screen and (max-width: 576px) {
+  .skill-info {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 20px;
+  }
+
+  .section-text {
+    white-space: normal;
+    padding: 0 20px;
+
+  }
+
+  .resume-content,
+  .about-info {
+    flex-direction: column;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .section-des {
+    padding: 0 20px;
+  }
+
+  .about {
+    padding: 0;
+  }
+
+  .contact {
+    flex-direction: column;
+    padding: 0 0 0 20px;
+    margin-bottom: 20px;
+    
+  }
+  .my-skills, .about{
+    margin-top: 130px;
+  }
+  .header-img{
+    background-image: none;
+  }
+  .header{
+    flex-direction: column;
+  }
+  .sub{
+    font-size: 50px;
+
+  }
+  nav{
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  nav ul{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  nav li{
+    padding: 0;
+  }
+  .header img{
+    margin: 10px 180px 0 0;
+    width: 100%;
+
+  }
+  #img1{
+    width: 100%;
+  }
+  .paragraph-des{
+   width: 75%;
+
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .skill-info {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 20px;
+  }
+
+  .resume-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .description {
+    padding: 0 80px;
+
+  }
+
+  .contact {
+    gap: 10px;
+    padding: 20px;
+  }
+
 }
